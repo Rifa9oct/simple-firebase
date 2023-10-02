@@ -37,9 +37,6 @@ const Login = () => {
                     <button onClick={handleGoogleSignIn} className="mr-6 bg-purple-500 text-xl text-white font-bold px-4 py-3 rounded-lg">Google login</button>
                 }
             </div>
-            <div className="flex justify-center mt-10">
-               
-            </div>
             {
                 user && <div className="mt-10">
                     <h1 className="text-xl font-bold text-center">User: {user.displayName}</h1>
